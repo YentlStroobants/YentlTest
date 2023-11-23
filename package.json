@@ -31,12 +31,12 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
-        "bootstrap-icons": "^1.10.5",
-        "gsap": "^3.10.3",
-        "jquery": "^3.7.0",
+        "bootstrap-icons": "^1.11.2",
+        "gsap": "^3.12.2",
+        "jquery": "^3.7.1",
         "jquery.easing": "^1.4.1",
         "magnific-popup": "^1.1.0",
-        "node-sass": "^7.0.1"
+        "node-sass": "^7.0.3"
     },
     "devDependencies": {
         "browser-sync": "^2.29.3",
