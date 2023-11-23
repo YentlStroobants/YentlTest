@@ -1,0 +1,83 @@
+// Custom extra larg button size
+.btn-xl {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+.btn-secondary {
+  border-color: $primary;
+}
+
+// Custom social buttons
+.btn-social {
+  border-radius: 100%;
+  border-color: black;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  color: $black;
+
+}
+
+.btn-diploma {
+  border-radius: 100%;
+  border-color: black;
+  display: inline-flex;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2rem;
+  align-items: center;
+  color: $black;
+}
+.btn-diploma:hover {
+  border-radius: 100%;
+  border-color: $primary;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: $primary;
+}
+.btn-social:hover {
+  border-radius: 100%;
+  border-color: $primary;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  color: $primary;
+}
+
+.btn-card:hover {
+  color: $black;
+  border-color: $primary;
+  background-color: fade-out($gray-200, 0.5);
+  transform: scale(1.04);
+  transition: .5s;
+
+}
+
+.close:focus {
+  outline: none;
+}
+
+
+// Scroll to top button
+.scroll-to-top {
+  z-index: 1042;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+
+  a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: fade-out($gray-900, 0.5);
+    line-height: 3.1rem;
+
+  }
+}
